@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "UrbanRoute",
+    "slug": "urbanroute",
+    "version": "1.0.0",
+    "sdkVersion": "54.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "resizeMode": "contain",
+      "backgroundColor": "#07090F"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#07090F"
+      },
+      "permissions": [
+        "android.permission.ACCESS_FINE_LOCATION",
+        "android.permission.ACCESS_COARSE_LOCATION"
+      ]
+    },
+    "ios": {
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "UrbanRoute utilise votre localisation pour détecter votre position de départ."
+      }
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "UrbanRoute utilise votre position pour le point de départ."
+        }
+      ]
+    ]
+  }
+}

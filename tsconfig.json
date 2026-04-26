@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "lib": [
+      "ES2017",
+      "DOM"
+    ],
+    "target": "ES2017",
+    "moduleResolution": "node",
+    "jsx": "react-native",
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "resolveJsonModule": true,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "extends": "expo/tsconfig.base"
+}
